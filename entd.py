@@ -35,7 +35,7 @@ class Animal:
         self.historico = []  # list<atendimento>
 
 class Pagamento:
-    def _init_(self, forma: str, parcelamento: int, valor: float):
+    def __init__(self, forma: str, parcelamento: int, valor: float):
         self.forma = ''
         self.parcelamento = 1
         self.valor = 0.0
